@@ -23,7 +23,7 @@ h1 a {
 
 @media (min-width: 365px) {
   header {
-    background-color: red;
+    background-color: blue;
     position: relative; }
     header .container {
       display: flex; }
