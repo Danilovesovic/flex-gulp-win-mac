@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  box-sizing: border-box; }
+
+body, html {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  background-color: #fff;
+  line-height: 1.4;
+  margin: 0; }
+
+h1 a {
+  text-decoration: none; }
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list-reset a {
+    text-decoration: none; }
+
+@media (min-width: 365px) {
+  header {
+    background-color: #3f434c;
+    position: relative; }
+    header .container {
+      display: flex; }
+  .logo {
+    margin: 0;
+    padding: 7px; }
+    .logo a {
+      color: #d83a3a;
+      font-size: 22px; }
+  .navigation-hide {
+    display: none; }
+  .navigation-show {
+    display: block;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 85px;
+    background-color: #3f434c;
+    text-align: center; }
+    .navigation-show a {
+      color: white; }
+  .nav-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto; }
+    .nav-button span {
+      width: 35px;
+      height: 2px;
+      background-color: white;
+      display: block;
+      margin: 2px;
+      border-radius: 8px; }
+  .tagline {
+    display: none; }
+  .articles-section .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    .articles-section .container article {
+      background-color: #333d54;
+      padding: 10px;
+      border-top: 1px solid #ddd;
+      color: #999;
+      text-align: center; }
+      .articles-section .container article i {
+        font-size: 28px;
+        color: #d83a3a;
+        padding: 0;
+        margin: 0; }
+  .winner-logo img {
+    width: 100%; }
+  .winner-logo-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .winner-logo-info h3 {
+      font-size: 24px; }
+    .winner-logo-info a {
+      display: block;
+      width: 150px;
+      height: 40px;
+      border: 1px solid #d83a3a;
+      color: #d83a3a;
+      border-radius: 8px;
+      text-decoration: none;
+      display: flex;
+      align-self: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px; } }
