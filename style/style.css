@@ -81,17 +81,26 @@ h1 a {
     flex-direction: column;
     text-align: center; }
     .winner-logo-info h3 {
-      font-size: 24px; }
-    .winner-logo-info a {
-      display: block;
-      width: 150px;
-      height: 40px;
-      border: 1px solid #d83a3a;
-      color: #d83a3a;
-      border-radius: 8px;
-      text-decoration: none;
-      display: flex;
-      align-self: center;
-      align-items: center;
-      justify-content: center;
-      margin-top: 10px; } }
+      font-size: 24px;
+      margin-top: 10px; }
+  .people {
+    display: none; }
+  .next {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid rgba(33, 33, 33, 0.1); }
+  .more-text {
+    display: none; }
+  .read-more {
+    display: block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #d83a3a;
+    color: #d83a3a;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; } }

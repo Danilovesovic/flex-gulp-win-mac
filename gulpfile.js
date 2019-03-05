@@ -4,10 +4,17 @@ const sass = require('gulp-sass');
 sass.compiler = require('node-sass');
 
 function convert(done) {
-    gulp.src('./css/*.sass')
+    gulp.src('./css/**/*.sass')
         .pipe(sass().on('error',sass.logError))
-        .pipe(gulp.dest('./style'))
+        .pipe(gulp.dest('./style'));
     done()
 }
 
 gulp.task('default',convert);
+
+function lookAlways() {
+    gulp.watch('./css/**/*.sass', convert)
+
+}
+
+gulp.task('always',lookAlways);
