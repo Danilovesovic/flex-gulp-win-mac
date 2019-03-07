@@ -1,4 +1,4 @@
-@media (min-width: 365px)
+@media (min-width: 320px)
   header
     background-color: $header-color
     position: relative
@@ -48,6 +48,8 @@
         border-top: 1px solid #ddd
         color: #999
         text-align: center
+        span
+          color: $main-span
         i
           font-size: 28px
           color: $logo-color
@@ -87,3 +89,24 @@
     align-items: center
     justify-content: center
     margin: 0 auto
+
+  footer
+    height: 100px
+    background-color: $header-color
+    position: relative
+    margin-top: 160px
+    ul
+      display: flex
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translate(-50%,-50%)
+      a
+        display: block
+        margin-left: 10px
+        text-indent: -9999px
+        background: url('../images/social-icons.png') no-repeat -38px -135px
+        width: 172px
+        height: 168px
+
+
