@@ -22,6 +22,10 @@ h1 a {
     text-decoration: none; }
 
 @media (min-width: 320px) {
+  .main-nav {
+    display: none; }
+  .nav-button {
+    display: block; }
   header {
     background-color: #3f434c;
     position: relative; }
@@ -126,6 +130,10 @@ h1 a {
         height: 168px; } }
 
 @media (min-width: 768px) {
+  .main-nav {
+    display: flex; }
+  .nav-button {
+    display: none; }
   .articles-section .container {
     flex-direction: row;
     flex-wrap: wrap; }
@@ -149,3 +157,30 @@ h1 a {
       padding: 20px; }
       .winner-logo .winner-logo-info p {
         margin-top: 0; } }
+
+@media (min-width: 992px) {
+  .main-nav {
+    display: flex; }
+  .nav-button {
+    display: none; }
+  header .container {
+    display: flex; }
+  a {
+    color: #d83a3a; } }
+
+.main-nav {
+  margin-left: auto;
+  align-items: center; }
+  .main-nav ul {
+    display: flex; }
+  .main-nav li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border-right: 1px solid white;
+    padding-right: 8px; }
+    .main-nav li a:hover {
+      color: #d83a3a; }
+  .main-nav li:last-child a {
+    border-right: none; }

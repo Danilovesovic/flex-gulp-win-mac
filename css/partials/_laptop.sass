@@ -1,1 +1,32 @@
 // working
+@media (min-width: 992px)
+  .main-nav
+    display: flex
+  .nav-button
+    display: none
+  header
+    .container
+      display: flex
+  .logo
+  a
+    color: $logo-color
+.main-nav
+  margin-left: auto
+  //display: flex
+  align-items: center
+
+  ul
+    display: flex
+
+  li
+    a
+      color: white
+      text-decoration: none
+      text-transform: uppercase
+      margin-left: 10px
+      border-right: 1px solid white
+      padding-right: 8px
+      &:hover
+        color: $logo-color
+    &:last-child a
+      border-right: none
