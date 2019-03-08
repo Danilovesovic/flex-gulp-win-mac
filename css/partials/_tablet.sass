@@ -1,6 +1,22 @@
 @media (min-width: 768px)
   .main-nav
     display: flex
+    margin-left: auto
+    align-items: center
+    ul
+      display: flex
+      li
+        a
+          color: white
+          text-decoration: none
+          text-transform: uppercase
+          margin-left: 10px
+          border-right: 1px solid white
+          padding-right: 8px
+          &:hover
+            color: $logo-color
+        &:last-child a
+          border-right: none
   .nav-button
     display: none
   .articles-section
